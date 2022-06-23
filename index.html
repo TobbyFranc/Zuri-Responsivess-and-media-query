@@ -31,21 +31,22 @@
         <div class="form">
           <form action="post">
             <div class="firstname">
-              <input type="text" placeholder="Firstname" id="firstname" />
+              <input type="text" placeholder="Firstname" id="firstname" required/>
+              <span class="smail"><img src="./images/icon-error.svg" alt=""></span>
             </div>
             <div class="lastname">
-              <input type="text" placeholder="Last Name" id="lastname" />
+              <input type="text" placeholder="Last Name" id="lastname" required/>
+              <span class="smail"><img src="./images/icon-error.svg" alt=""></span>
             </div>
             <div class="mail">
-              <input type="email" placeholder="Email Address" id="email" />
+              <input type="email" placeholder="Email Address" id="email" required/>
+              <span class="smail"><img src="./images/icon-error.svg" alt=""></span>
             </div>
             <div class="password">
-              <input type="password" placeholder="Password" id="password" />
+              <input type="password" placeholder="Password" id="password" required/>
+              <span class="smail"><img src="./images/icon-error.svg" alt=""></span>
             </div>
-            <div class="btn">
               <button class="btn">CLAIM YOUR FREE TRIAL</button>
-              <!--<input type="button" value="CLAIM YOUR FREE TRIAL" />-->
-            </div>
             <div class="terms">
               <p>
                 By clicking the button, you are agreeing to our<span
@@ -58,5 +59,6 @@
         </div>
       </div>
     </main>
+    <script src="lay.js"></script>
   </body>
 </html>
